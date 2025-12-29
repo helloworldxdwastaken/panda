@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Tattoo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <span>Panda Tattoo</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" data-en="Home" data-es="Inicio">Home</a>
+                <a href="#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a>
+                <a href="#booking" data-en="Booking" data-es="Reservas">Booking</a>
+                <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="language-toggle" id="languageToggle">
+                    <span class="lang-option active" data-lang="en">EN</span>
+                    <span class="lang-divider">/</span>
+                    <span class="lang-option" data-lang="es">ES</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" data-en="Home" data-es="Inicio">Home</a>
+        <a href="#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a>
+        <a href="#booking" data-en="Booking" data-es="Reservas">Booking</a>
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Art Etched in Skin" data-es="Arte Grabado en la Piel">Art Etched in Skin</h1>
+            <p class="hero-subtitle" data-en="Where tradition meets creativity" data-es="Donde la tradición se encuentra con la creatividad">Where tradition meets creativity</p>
+            <a href="#booking" class="cta-button" data-en="Book Now" data-es="Reservar Ahora">Book Now</a>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-en="Welcome to Panda Tattoo" data-es="Bienvenido a Panda Tattoo">Welcome to Panda Tattoo</h2>
+            <p class="about-text" data-en="We are a professional tattoo studio dedicated to creating unique and personalized artwork. Our experienced artists specialize in various styles to bring your vision to life." data-es="Somos un estudio de tatuajes profesional dedicado a crear arte único y personalizado. Nuestros artistas experimentados se especializan en varios estilos para dar vida a tu visión.">
+                We are a professional tattoo studio dedicated to creating unique and personalized artwork. Our experienced artists specialize in various styles to bring your vision to life.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 data-en="Our Work" data-es="Nuestro Trabajo">Our Work</h2>
+            <p class="section-subtitle" data-en="Explore our diverse collection of tattoo styles" data-es="Explora nuestra diversa colección de estilos de tatuajes">Explore our diverse collection of tattoo styles</p>
+            
+            <!-- Style Filters -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-style="all" data-en="All Styles" data-es="Todos los Estilos">All Styles</button>
+                <button class="filter-btn" data-style="neo-traditional" data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</button>
+                <button class="filter-btn" data-style="realism" data-en="Realism" data-es="Realismo">Realism</button>
+                <button class="filter-btn" data-style="traditional" data-en="Traditional" data-es="Tradicional">Traditional</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Neo Traditional -->
+                <div class="portfolio-item" data-style="neo-traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=600&h=600&fit=crop" alt="Neo Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</h3>
+                            <p data-en="Bold lines with modern flair" data-es="Líneas audaces con estilo moderno">Bold lines with modern flair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="neo-traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?w=600&h=600&fit=crop" alt="Neo Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</h3>
+                            <p data-en="Vibrant and expressive" data-es="Vibrante y expresivo">Vibrant and expressive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="neo-traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1590246814883-57c511a8c0b9?w=600&h=600&fit=crop" alt="Neo Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</h3>
+                            <p data-en="Contemporary artistry" data-es="Arte contemporáneo">Contemporary artistry</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Realism -->
+                <div class="portfolio-item" data-style="realism">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1565058379802-bbe93b2f703a?w=600&h=600&fit=crop" alt="Realism Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Realism" data-es="Realismo">Realism</h3>
+                            <p data-en="Lifelike precision" data-es="Precisión realista">Lifelike precision</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="realism">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1568515387631-33e846382889?w=600&h=600&fit=crop" alt="Realism Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Realism" data-es="Realismo">Realism</h3>
+                            <p data-en="Photographic detail" data-es="Detalle fotográfico">Photographic detail</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="realism">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1610014763615-2e6463640e9c?w=600&h=600&fit=crop" alt="Realism Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Realism" data-es="Realismo">Realism</h3>
+                            <p data-en="True to life" data-es="Fiel a la vida">True to life</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Traditional -->
+                <div class="portfolio-item" data-style="traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1610014763791-61bd9e45e400?w=600&h=600&fit=crop" alt="Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Traditional" data-es="Tradicional">Traditional</h3>
+                            <p data-en="Classic American style" data-es="Estilo americano clásico">Classic American style</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1610014763867-8e33b8be0b26?w=600&h=600&fit=crop" alt="Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Traditional" data-es="Tradicional">Traditional</h3>
+                            <p data-en="Timeless designs" data-es="Diseños atemporales">Timeless designs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-style="traditional">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1590246814865-b1f71d2f4f73?w=600&h=600&fit=crop" alt="Traditional Tattoo">
+                        <div class="portfolio-overlay">
+                            <h3 data-en="Traditional" data-es="Tradicional">Traditional</h3>
+                            <p data-en="Bold and iconic" data-es="Audaz e icónico">Bold and iconic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 data-en="Book Your Appointment" data-es="Reserva tu Cita">Book Your Appointment</h2>
+            <p class="section-subtitle" data-en="Fill out the form below and we'll get back to you soon" data-es="Completa el formulario y te responderemos pronto">Fill out the form below and we'll get back to you soon</p>
+            
+            <form class="booking-form" id="bookingForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label data-en="Full Name *" data-es="Nombre Completo *">Full Name *</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-en="Email *" data-es="Correo Electrónico *">Email *</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label data-en="Phone *" data-es="Teléfono *">Phone *</label>
+                        <input type="tel" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label data-en="Preferred Date *" data-es="Fecha Preferida *">Preferred Date *</label>
+                        <input type="date" name="date" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label data-en="Tattoo Style *" data-es="Estilo de Tatuaje *">Tattoo Style *</label>
+                    <select name="style" required>
+                        <option value="" data-en="Select a style" data-es="Selecciona un estilo">Select a style</option>
+                        <option value="neo-traditional" data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</option>
+                        <option value="realism" data-en="Realism" data-es="Realismo">Realism</option>
+                        <option value="traditional" data-en="Traditional" data-es="Tradicional">Traditional</option>
+                        <option value="other" data-en="Other" data-es="Otro">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label data-en="Tattoo Description *" data-es="Descripción del Tatuaje *">Tattoo Description *</label>
+                    <textarea name="description" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button" data-en="Submit Booking" data-es="Enviar Reserva">Submit Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-en="Get in Touch" data-es="Contáctanos">Get in Touch</h2>
+            <p class="section-subtitle" data-en="Have questions? We'd love to hear from you" data-es="¿Tienes preguntas? Nos encantaría saber de ti">Have questions? We'd love to hear from you</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3 data-en="Location" data-es="Ubicación">Location</h3>
+                            <p>123 Tattoo Street<br>City, State 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3 data-en="Phone" data-es="Teléfono">Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@pandatattoo.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3 data-en="Hours" data-es="Horario">Hours</h3>
+                            <p data-en="Mon-Sat: 10AM - 8PM<br>Sunday: Closed" data-es="Lun-Sáb: 10AM - 8PM<br>Domingo: Cerrado">Mon-Sat: 10AM - 8PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label data-en="Name *" data-es="Nombre *">Name *</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label data-en="Email *" data-es="Correo Electrónico *">Email *</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label data-en="Subject *" data-es="Asunto *">Subject *</label>
+                        <input type="text" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label data-en="Message *" data-es="Mensaje *">Message *</label>
+                        <textarea name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Panda Tattoo</h3>
+                    <p data-en="Creating art that lasts a lifetime" data-es="Creando arte que dura toda la vida">Creating art that lasts a lifetime</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a></li>
+                        <li><a href="#booking" data-en="Booking" data-es="Reservas">Booking</a></li>
+                        <li><a href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Styles" data-es="Estilos">Styles</h4>
+                    <ul>
+                        <li data-en="Neo Traditional" data-es="Neo Tradicional">Neo Traditional</li>
+                        <li data-en="Realism" data-es="Realismo">Realism</li>
+                        <li data-en="Traditional" data-es="Tradicional">Traditional</li>
+                        <li data-en="Custom Designs" data-es="Diseños Personalizados">Custom Designs</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Newsletter" data-es="Boletín">Newsletter</h4>
+                    <p data-en="Stay updated with our latest work" data-es="Mantente actualizado con nuestro último trabajo">Stay updated with our latest work</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" data-en-placeholder="Your email" data-es-placeholder="Tu correo">
+                        <button type="submit" data-en="Subscribe" data-es="Suscribirse">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Panda Tattoo Studio. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
