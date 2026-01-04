@@ -1,0 +1,19 @@
+# robots.txt for pandatattoostudio.com
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /blog.html
+Allow: /assets/
+Allow: /styles.css
+Allow: /script.js
+
+# Sitemap location
+Sitemap: https://pandatattoostudio.com/sitemap.xml
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 10
+
+# Block access to specific directories (if any)
+Disallow: /Public/myteri Font/
+

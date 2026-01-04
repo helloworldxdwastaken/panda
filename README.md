@@ -1,6 +1,8 @@
 # Panda Tattoo Studio Website
 
-A modern, responsive portfolio and booking website for Panda Tattoo Studio featuring a dark theme, bilingual support (English/Spanish), and organized tattoo galleries.
+**Live at: [pandatattoostudio.com](https://pandatattoostudio.com)**
+
+Tampa's #1 rated tattoo studio website featuring modern design, SEO optimization, bilingual support (English/Spanish), real tattoo portfolio, and comprehensive blog content.
 
 ## Features
 
