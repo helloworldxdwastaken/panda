@@ -403,7 +403,12 @@
             <h2 data-en="Book Your Appointment" data-es="Reserva tu Cita">Book Your Appointment</h2>
             <p class="section-subtitle" data-en="Fill out the form below and we'll get back to you soon" data-es="Completa el formulario y te responderemos pronto">Fill out the form below and we'll get back to you soon</p>
             
-            <form class="booking-form" id="bookingForm">
+            <form class="booking-form" id="bookingForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+                <input type="hidden" name="subject" value="🎨 New Booking Request - Panda Tattoo Studio">
+                <input type="hidden" name="from_name" value="Panda Tattoo Website">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
                 <div class="form-row">
                     <div class="form-group">
                         <label data-en="Full Name *" data-es="Nombre Completo *">Full Name *</label>
@@ -488,7 +493,11 @@
                     </div>
                 </div>
                 
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+                    <input type="hidden" name="from_name" value="Panda Tattoo Website">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    
                     <div class="form-group">
                         <label data-en="Name *" data-es="Nombre *">Name *</label>
                         <input type="text" name="name" required>

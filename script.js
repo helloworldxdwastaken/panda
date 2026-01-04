@@ -170,64 +170,80 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-bookingForm.addEventListener('submit', function(e) {
+bookingForm.addEventListener('submit', async function(e) {
     e.preventDefault();
     
-    // Get form data
-    const formData = new FormData(this);
-    const data = Object.fromEntries(formData);
-    
-    // Add loading state
     const submitButton = this.querySelector('.submit-button');
     const originalText = submitButton.textContent;
     submitButton.textContent = currentLanguage === 'en' ? 'Sending...' : 'Enviando...';
     submitButton.disabled = true;
     
-    // Simulate form submission (in a real application, you would send this to a server)
-    setTimeout(() => {
-        console.log('Booking Data:', data);
+    const formData = new FormData(this);
+    
+    try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
         
-        // Show success message
-        const successMessage = currentLanguage === 'en' 
-            ? 'Booking request submitted successfully! We\'ll contact you soon.' 
-            : '¡Solicitud de reserva enviada con éxito! Te contactaremos pronto.';
-        showSuccessMessage(successMessage);
+        const data = await response.json();
         
-        // Reset form
-        this.reset();
+        if (data.success) {
+            const successMessage = currentLanguage === 'en' 
+                ? '✅ Booking request submitted successfully! We\'ll contact you soon.' 
+                : '✅ ¡Solicitud de reserva enviada con éxito! Te contactaremos pronto.';
+            showSuccessMessage(successMessage);
+            this.reset();
+        } else {
+            throw new Error('Form submission failed');
+        }
+    } catch (error) {
+        const errorMessage = currentLanguage === 'en' 
+            ? '❌ Error sending booking. Please try again or call us directly.' 
+            : '❌ Error al enviar la reserva. Inténtalo de nuevo o llámanos.';
+        showSuccessMessage(errorMessage);
+    } finally {
         submitButton.textContent = originalText;
         submitButton.disabled = false;
-    }, 1500);
+    }
 });
 
-contactForm.addEventListener('submit', function(e) {
+contactForm.addEventListener('submit', async function(e) {
     e.preventDefault();
     
-    // Get form data
-    const formData = new FormData(this);
-    const data = Object.fromEntries(formData);
-    
-    // Add loading state
     const submitButton = this.querySelector('.submit-button');
     const originalText = submitButton.textContent;
     submitButton.textContent = currentLanguage === 'en' ? 'Sending...' : 'Enviando...';
     submitButton.disabled = true;
     
-    // Simulate form submission (in a real application, you would send this to a server)
-    setTimeout(() => {
-        console.log('Contact Data:', data);
+    const formData = new FormData(this);
+    
+    try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
         
-        // Show success message
-        const successMessage = currentLanguage === 'en' 
-            ? 'Message sent successfully! We\'ll get back to you soon.' 
-            : '¡Mensaje enviado con éxito! Te responderemos pronto.';
-        showSuccessMessage(successMessage);
+        const data = await response.json();
         
-        // Reset form
-        this.reset();
+        if (data.success) {
+            const successMessage = currentLanguage === 'en' 
+                ? '✅ Message sent successfully! We\'ll get back to you soon.' 
+                : '✅ ¡Mensaje enviado con éxito! Te responderemos pronto.';
+            showSuccessMessage(successMessage);
+            this.reset();
+        } else {
+            throw new Error('Form submission failed');
+        }
+    } catch (error) {
+        const errorMessage = currentLanguage === 'en' 
+            ? '❌ Error sending message. Please try again or call us directly.' 
+            : '❌ Error al enviar el mensaje. Inténtalo de nuevo o llámanos.';
+        showSuccessMessage(errorMessage);
+    } finally {
         submitButton.textContent = originalText;
         submitButton.disabled = false;
-    }, 1500);
+    }
 });
 
 // Newsletter Form Handler
