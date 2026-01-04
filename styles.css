@@ -685,6 +685,16 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.6;
 }
 
+.contact-item a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-item a:hover {
+    color: var(--text-primary);
+}
+
 .contact-form {
     background: var(--accent-bg);
     padding: 2.5rem;
