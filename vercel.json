@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/blog", "destination": "/blog-index.html" },
+    { "source": "/blog/best-tampa-studios", "destination": "/blog-best-tampa-studios.html" },
+    { "source": "/blog/tattoo-pricing-tampa", "destination": "/blog-tattoo-pricing-tampa.html" },
+    { "source": "/blog/choosing-artist-tampa", "destination": "/blog-choosing-artist-tampa.html" },
+    { "source": "/blog/tattoo-trends-2024", "destination": "/blog-tattoo-trends-2024.html" },
+    { "source": "/blog/coverup-tattoos-tampa", "destination": "/blog-coverup-tattoos-tampa.html" },
+    { "source": "/blog/first-tattoo-tampa", "destination": "/blog-first-tattoo-tampa.html" },
+    { "source": "/blog/tattoo-aftercare", "destination": "/blog-tattoo-aftercare.html" },
+    { "source": "/blog/black-gray-tattoos", "destination": "/blog-black-gray-tattoos.html" },
+    { "source": "/top-10-tattoo-studios-tampa", "destination": "/top-10-tattoo-studios-tampa.html" },
+    { "source": "/best-tattoo-shops-miami", "destination": "/best-tattoo-shops-miami.html" },
+    { "source": "/best-tattoo-artists-florida", "destination": "/best-tattoo-artists-florida.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
+
