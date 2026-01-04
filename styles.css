@@ -95,6 +95,12 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo span {
     font-family: 'Myteri Tattoo', sans-serif;
     font-size: 1.6rem;
@@ -430,6 +436,129 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondary);
 }
 
+/* Video Gallery Section */
+.videos {
+    padding: 100px 20px;
+    background-color: var(--secondary-bg);
+}
+
+.videos h2 {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.video-item {
+    border-radius: 15px;
+    overflow: hidden;
+    background: var(--accent-bg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.video-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.video-item video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #000;
+}
+
+/* Blog Section */
+.blog {
+    padding: 100px 20px;
+    background-color: var(--primary-bg);
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.blog-card {
+    background: var(--accent-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.blog-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.blog-card:hover .blog-image img {
+    transform: scale(1.1);
+}
+
+.blog-content {
+    padding: 2rem;
+}
+
+.blog-date {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-content h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.blog-content p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.read-more:hover {
+    padding-left: 10px;
+}
+
 /* Booking Section */
 .booking {
     padding: 100px 20px;
@@ -712,11 +841,23 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
     }
     
+    .logo-img {
+        height: 40px;
+    }
+    
     .hero-title {
         font-size: 2.5rem;
     }
     
     .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .blog-grid {
         grid-template-columns: 1fr;
     }
     

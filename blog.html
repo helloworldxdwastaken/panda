@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Panda Tattoo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .blog-header {
+            padding-top: 120px;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        .blog-article {
+            max-width: 900px;
+            margin: 0 auto 100px;
+            padding: 0 20px;
+        }
+
+        .blog-article h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            padding-top: 50px;
+        }
+
+        .blog-article-meta {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .blog-article-image {
+            width: 100%;
+            height: 500px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .blog-article-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-article-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .blog-article-content h3 {
+            color: var(--text-primary);
+            margin: 2rem 0 1rem;
+            font-size: 1.8rem;
+        }
+
+        .blog-article-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-article-content ul, 
+        .blog-article-content ol {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .blog-article-content li {
+            margin-bottom: 1rem;
+        }
+
+        .back-to-home {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 1rem 2rem;
+            background: var(--text-primary);
+            color: var(--primary-bg);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .back-to-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .blog-article h2 {
+                font-size: 2rem;
+            }
+
+            .blog-article-image {
+                height: 300px;
+            }
+
+            .blog-article-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo/1.png" alt="Panda Tattoo Logo" class="logo-img">
+                <span>Panda Tattoo</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#home" data-en="Home" data-es="Inicio">Home</a>
+                <a href="index.html#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a>
+                <a href="index.html#videos" data-en="Videos" data-es="Videos">Videos</a>
+                <a href="blog.html" data-en="Blog" data-es="Blog">Blog</a>
+                <a href="index.html#booking" data-en="Booking" data-es="Reservas">Booking</a>
+                <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="language-toggle" id="languageToggle">
+                    <span class="lang-option active" data-lang="en">EN</span>
+                    <span class="lang-divider">/</span>
+                    <span class="lang-option" data-lang="es">ES</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html#home" data-en="Home" data-es="Inicio">Home</a>
+        <a href="index.html#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a>
+        <a href="index.html#videos" data-en="Videos" data-es="Videos">Videos</a>
+        <a href="blog.html" data-en="Blog" data-es="Blog">Blog</a>
+        <a href="index.html#booking" data-en="Booking" data-es="Reservas">Booking</a>
+        <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+    </div>
+
+    <!-- Blog Header -->
+    <section class="blog-header">
+        <div class="container">
+            <h1 data-en="Panda Tattoo Blog" data-es="Blog de Panda Tattoo">Panda Tattoo Blog</h1>
+            <p class="section-subtitle" data-en="Tips, trends, and stories from the studio" data-es="Consejos, tendencias e historias del estudio">Tips, trends, and stories from the studio</p>
+        </div>
+    </section>
+
+    <!-- Article 1: Tattoo Aftercare -->
+    <article id="aftercare" class="blog-article">
+        <h2 data-en="Tattoo Aftercare: Essential Tips" data-es="Cuidado del Tatuaje: Consejos Esenciales">Tattoo Aftercare: Essential Tips</h2>
+        <div class="blog-article-meta">
+            <span data-en="Published: January 15, 2024 | By Panda Tattoo Team" data-es="Publicado: 15 de enero, 2024 | Por el equipo de Panda Tattoo">Published: January 15, 2024 | By Panda Tattoo Team</span>
+        </div>
+        <div class="blog-article-image">
+            <img src="assets/IMG_2607.JPG" alt="Tattoo Aftercare">
+        </div>
+        <div class="blog-article-content">
+            <p data-en="Getting a tattoo is an exciting experience, but proper aftercare is crucial to ensure your new ink heals beautifully and maintains its vibrancy for years to come. Here's our comprehensive guide to tattoo aftercare." data-es="Hacerse un tatuaje es una experiencia emocionante, pero el cuidado posterior adecuado es crucial para garantizar que tu nueva tinta sane hermosamente y mantenga su vibración durante años. Aquí está nuestra guía completa para el cuidado del tatuaje.">
+                Getting a tattoo is an exciting experience, but proper aftercare is crucial to ensure your new ink heals beautifully and maintains its vibrancy for years to come. Here's our comprehensive guide to tattoo aftercare.
+            </p>
+
+            <h3 data-en="First 24 Hours" data-es="Primeras 24 Horas">First 24 Hours</h3>
+            <p data-en="Your artist will cover your fresh tattoo with a protective bandage or film. Keep this on for at least 2-4 hours, or as instructed by your artist. Some modern films can be left on for several days." data-es="Tu artista cubrirá tu tatuaje fresco con un vendaje protector o película. Manténlo puesto durante al menos 2-4 horas, o según las instrucciones de tu artista. Algunas películas modernas se pueden dejar puestas durante varios días.">
+                Your artist will cover your fresh tattoo with a protective bandage or film. Keep this on for at least 2-4 hours, or as instructed by your artist. Some modern films can be left on for several days.
+            </p>
+
+            <h3 data-en="Cleaning Your Tattoo" data-es="Limpiando tu Tatuaje">Cleaning Your Tattoo</h3>
+            <ul>
+                <li data-en="Wash your hands thoroughly before touching your tattoo" data-es="Lávate las manos a fondo antes de tocar tu tatuaje">Wash your hands thoroughly before touching your tattoo</li>
+                <li data-en="Use lukewarm water and fragrance-free soap" data-es="Usa agua tibia y jabón sin fragancia">Use lukewarm water and fragrance-free soap</li>
+                <li data-en="Gently pat dry with a clean paper towel" data-es="Seca suavemente con una toalla de papel limpia">Gently pat dry with a clean paper towel</li>
+                <li data-en="Clean 2-3 times daily for the first week" data-es="Limpia 2-3 veces al día durante la primera semana">Clean 2-3 times daily for the first week</li>
+            </ul>
+
+            <h3 data-en="Moisturizing" data-es="Hidratación">Moisturizing</h3>
+            <p data-en="After cleaning, apply a thin layer of fragrance-free moisturizer or specialized tattoo aftercare ointment. We recommend products like Aquaphor, Hustle Butter, or any unscented lotion. Don't over-moisturize – a little goes a long way!" data-es="Después de limpiar, aplica una capa delgada de humectante sin fragancia o ungüento especializado para el cuidado de tatuajes. Recomendamos productos como Aquaphor, Hustle Butter o cualquier loción sin perfume. ¡No hidrates en exceso: un poco es suficiente!">
+                After cleaning, apply a thin layer of fragrance-free moisturizer or specialized tattoo aftercare ointment. We recommend products like Aquaphor, Hustle Butter, or any unscented lotion. Don't over-moisturize – a little goes a long way!
+            </p>
+
+            <h3 data-en="Things to Avoid" data-es="Cosas a Evitar">Things to Avoid</h3>
+            <ul>
+                <li data-en="Swimming pools, hot tubs, and ocean water for 2-3 weeks" data-es="Piscinas, jacuzzis y agua de mar durante 2-3 semanas">Swimming pools, hot tubs, and ocean water for 2-3 weeks</li>
+                <li data-en="Direct sunlight and tanning beds" data-es="Luz solar directa y camas de bronceado">Direct sunlight and tanning beds</li>
+                <li data-en="Picking or scratching at scabs" data-es="Rascar o quitar costras">Picking or scratching at scabs</li>
+                <li data-en="Tight clothing that rubs against the tattoo" data-es="Ropa ajustada que roce el tatuaje">Tight clothing that rubs against the tattoo</li>
+                <li data-en="Working out excessively (sweating can irritate)" data-es="Hacer ejercicio en exceso (el sudor puede irritar)">Working out excessively (sweating can irritate)</li>
+            </ul>
+
+            <h3 data-en="Healing Timeline" data-es="Cronograma de Curación">Healing Timeline</h3>
+            <p data-en="Your tattoo will go through several healing stages over 2-4 weeks. The surface may appear healed after 2 weeks, but complete healing takes 4-6 weeks. During this time, you may experience itching, peeling, and temporary dullness in color – all normal parts of the healing process!" data-es="Tu tatuaje pasará por varias etapas de curación durante 2-4 semanas. La superficie puede parecer sanada después de 2 semanas, pero la curación completa toma 4-6 semanas. Durante este tiempo, puedes experimentar picazón, descamación y opacidad temporal en el color, ¡todas partes normales del proceso de curación!">
+                Your tattoo will go through several healing stages over 2-4 weeks. The surface may appear healed after 2 weeks, but complete healing takes 4-6 weeks. During this time, you may experience itching, peeling, and temporary dullness in color – all normal parts of the healing process!
+            </p>
+        </div>
+    </article>
+
+    <!-- Article 2: First Tattoo -->
+    <article id="first-tattoo" class="blog-article">
+        <h2 data-en="Choosing Your First Tattoo Design" data-es="Eligiendo tu Primer Diseño de Tatuaje">Choosing Your First Tattoo Design</h2>
+        <div class="blog-article-meta">
+            <span data-en="Published: December 10, 2023 | By Panda Tattoo Team" data-es="Publicado: 10 de diciembre, 2023 | Por el equipo de Panda Tattoo">Published: December 10, 2023 | By Panda Tattoo Team</span>
+        </div>
+        <div class="blog-article-image">
+            <img src="assets/IMG_2614.JPG" alt="First Tattoo">
+        </div>
+        <div class="blog-article-content">
+            <p data-en="Getting your first tattoo is a big decision! Here's everything you need to know to choose a design you'll love for years to come." data-es="¡Hacerse tu primer tatuaje es una gran decisión! Aquí está todo lo que necesitas saber para elegir un diseño que amarás durante años.">
+                Getting your first tattoo is a big decision! Here's everything you need to know to choose a design you'll love for years to come.
+            </p>
+
+            <h3 data-en="Take Your Time" data-es="Tómate tu Tiempo">Take Your Time</h3>
+            <p data-en="Don't rush the decision. Live with your design idea for at least a few months. If you still love it after that time, it's probably the right choice for you." data-es="No te apresures con la decisión. Vive con tu idea de diseño durante al menos unos meses. Si todavía te encanta después de ese tiempo, probablemente sea la elección correcta para ti.">
+                Don't rush the decision. Live with your design idea for at least a few months. If you still love it after that time, it's probably the right choice for you.
+            </p>
+
+            <h3 data-en="Consider Placement" data-es="Considera la Ubicación">Consider Placement</h3>
+            <p data-en="Think about visibility, pain level, and how the tattoo will age. Areas like the inner arm, ribs, and feet tend to be more painful, while outer arms, thighs, and calves are generally less sensitive." data-es="Piensa en la visibilidad, el nivel de dolor y cómo envejecerá el tatuaje. Áreas como el brazo interior, las costillas y los pies tienden a ser más dolorosas, mientras que los brazos exteriores, los muslos y las pantorrillas son generalmente menos sensibles.">
+                Think about visibility, pain level, and how the tattoo will age. Areas like the inner arm, ribs, and feet tend to be more painful, while outer arms, thighs, and calves are generally less sensitive.
+            </p>
+
+            <h3 data-en="Size Matters" data-es="El Tamaño Importa">Size Matters</h3>
+            <p data-en="For your first tattoo, consider starting with something small to medium-sized. This allows you to get comfortable with the process and gives you an idea of how your body responds to tattooing." data-es="Para tu primer tatuaje, considera comenzar con algo pequeño a mediano. Esto te permite sentirte cómodo con el proceso y te da una idea de cómo responde tu cuerpo al tatuaje.">
+                For your first tattoo, consider starting with something small to medium-sized. This allows you to get comfortable with the process and gives you an idea of how your body responds to tattooing.
+            </p>
+
+            <h3 data-en="Choose Your Artist Wisely" data-es="Elige tu Artista Sabiamente">Choose Your Artist Wisely</h3>
+            <p data-en="Research artists who specialize in the style you want. Look at their portfolios, read reviews, and don't be afraid to ask questions. At Panda Tattoo, we offer free consultations to discuss your ideas and ensure we're the right fit for your vision." data-es="Investiga a los artistas que se especializan en el estilo que deseas. Mira sus portafolios, lee reseñas y no tengas miedo de hacer preguntas. En Panda Tattoo, ofrecemos consultas gratuitas para discutir tus ideas y asegurarnos de que somos el ajuste correcto para tu visión.">
+                Research artists who specialize in the style you want. Look at their portfolios, read reviews, and don't be afraid to ask questions. At Panda Tattoo, we offer free consultations to discuss your ideas and ensure we're the right fit for your vision.
+            </p>
+        </div>
+    </article>
+
+    <!-- Article 3: Black & Gray -->
+    <article id="black-gray" class="blog-article">
+        <h2 data-en="The Art of Black & Gray Tattoos" data-es="El Arte de los Tatuajes en Blanco y Negro">The Art of Black & Gray Tattoos</h2>
+        <div class="blog-article-meta">
+            <span data-en="Published: November 20, 2023 | By Panda Tattoo Team" data-es="Publicado: 20 de noviembre, 2023 | Por el equipo de Panda Tattoo">Published: November 20, 2023 | By Panda Tattoo Team</span>
+        </div>
+        <div class="blog-article-image">
+            <img src="assets/IMG_2654.JPEG" alt="Black and Gray Tattoos">
+        </div>
+        <div class="blog-article-content">
+            <p data-en="Black and gray tattoos are timeless, elegant, and versatile. This style has been a cornerstone of tattoo artistry for decades, and continues to be one of the most popular choices." data-es="Los tatuajes en blanco y negro son atemporales, elegantes y versátiles. Este estilo ha sido una piedra angular del arte del tatuaje durante décadas y continúa siendo una de las opciones más populares.">
+                Black and gray tattoos are timeless, elegant, and versatile. This style has been a cornerstone of tattoo artistry for decades, and continues to be one of the most popular choices.
+            </p>
+
+            <h3 data-en="What Makes Black & Gray Special?" data-es="¿Qué Hace Especial al Blanco y Negro?">What Makes Black & Gray Special?</h3>
+            <p data-en="Using only black ink diluted with distilled water, artists create stunning gradients and shading that can range from deep blacks to soft grays. This technique allows for incredible depth and realism without the use of color." data-es="Usando solo tinta negra diluida con agua destilada, los artistas crean gradientes y sombreados impresionantes que pueden variar desde negros profundos hasta grises suaves. Esta técnica permite una profundidad y realismo increíbles sin el uso de color.">
+                Using only black ink diluted with distilled water, artists create stunning gradients and shading that can range from deep blacks to soft grays. This technique allows for incredible depth and realism without the use of color.
+            </p>
+
+            <h3 data-en="Perfect Subjects for Black & Gray" data-es="Sujetos Perfectos para Blanco y Negro">Perfect Subjects for Black & Gray</h3>
+            <ul>
+                <li data-en="Portraits and realistic imagery" data-es="Retratos e imágenes realistas">Portraits and realistic imagery</li>
+                <li data-en="Religious and spiritual designs" data-es="Diseños religiosos y espirituales">Religious and spiritual designs</li>
+                <li data-en="Animals and nature scenes" data-es="Animales y escenas de la naturaleza">Animals and nature scenes</li>
+                <li data-en="Geometric and mandala patterns" data-es="Patrones geométricos y mandalas">Geometric and mandala patterns</li>
+                <li data-en="Script and lettering" data-es="Escritura y letras">Script and lettering</li>
+            </ul>
+
+            <h3 data-en="Aging Gracefully" data-es="Envejecimiento Elegante">Aging Gracefully</h3>
+            <p data-en="One advantage of black and gray tattoos is how well they age. While all tattoos fade over time, black ink tends to maintain its integrity better than colors, making touch-ups less frequent and less extensive." data-es="Una ventaja de los tatuajes en blanco y negro es lo bien que envejecen. Si bien todos los tatuajes se desvanecen con el tiempo, la tinta negra tiende a mantener su integridad mejor que los colores, lo que hace que los retoques sean menos frecuentes y menos extensos.">
+                One advantage of black and gray tattoos is how well they age. While all tattoos fade over time, black ink tends to maintain its integrity better than colors, making touch-ups less frequent and less extensive.
+            </p>
+        </div>
+
+        <a href="index.html#home" class="back-to-home" data-en="← Back to Home" data-es="← Volver al Inicio">← Back to Home</a>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Panda Tattoo</h3>
+                    <p data-en="Creating art that lasts a lifetime" data-es="Creando arte que dura toda la vida">Creating art that lasts a lifetime</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-es="Enlaces Rápidos">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home" data-en="Home" data-es="Inicio">Home</a></li>
+                        <li><a href="index.html#portfolio" data-en="Portfolio" data-es="Portafolio">Portfolio</a></li>
+                        <li><a href="index.html#booking" data-en="Booking" data-es="Reservas">Booking</a></li>
+                        <li><a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Styles" data-es="Estilos">Styles</h4>
+                    <ul>
+                        <li data-en="Black & Gray" data-es="Blanco y Negro">Black & Gray</li>
+                        <li data-en="Color" data-es="Color">Color</li>
+                        <li data-en="Custom Designs" data-es="Diseños Personalizados">Custom Designs</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-en="Newsletter" data-es="Boletín">Newsletter</h4>
+                    <p data-en="Stay updated with our latest work" data-es="Mantente actualizado con nuestro último trabajo">Stay updated with our latest work</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" data-en-placeholder="Your email" data-es-placeholder="Tu correo">
+                        <button type="submit" data-en="Subscribe" data-es="Suscribirse">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Panda Tattoo Studio. <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
