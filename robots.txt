@@ -1,4 +1,4 @@
-# robots.txt for pandatattoostudio.com
+# robots.txt for pandatattooink.com
 
 User-agent: *
 Allow: /
@@ -9,7 +9,7 @@ Allow: /styles.css
 Allow: /script.js
 
 # Sitemap location
-Sitemap: https://pandatattoostudio.com/sitemap.xml
+Sitemap: https://pandatattooink.com/sitemap.xml
 
 # Crawl-delay to prevent server overload
 Crawl-delay: 10

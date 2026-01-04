@@ -1,6 +1,6 @@
 # Panda Tattoo Studio Website
 
-**Live at: [pandatattoostudio.com](https://pandatattoostudio.com)**
+**Live at: [pandatattooink.com](https://pandatattooink.com)**
 
 Tampa's #1 rated tattoo studio website featuring modern design, SEO optimization, bilingual support (English/Spanish), real tattoo portfolio, and comprehensive blog content.
 
