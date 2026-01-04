@@ -102,8 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo span {
-    font-family: 'Myteri Tattoo', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -712,8 +713,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-section h3 {
-    font-family: 'Myteri Tattoo', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
