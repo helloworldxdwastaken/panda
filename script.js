@@ -137,7 +137,6 @@ filterButtons.forEach(button => {
 });
 
 // Form Submission Handlers
-const bookingForm = document.getElementById('bookingForm');
 const contactForm = document.getElementById('contactForm');
 
 function showSuccessMessage(message) {
@@ -169,44 +168,6 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
-
-bookingForm.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    const submitButton = this.querySelector('.submit-button');
-    const originalText = submitButton.textContent;
-    submitButton.textContent = currentLanguage === 'en' ? 'Sending...' : 'Enviando...';
-    submitButton.disabled = true;
-    
-    const formData = new FormData(this);
-    
-    try {
-        const response = await fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            body: formData
-        });
-        
-        const data = await response.json();
-        
-        if (data.success) {
-            const successMessage = currentLanguage === 'en' 
-                ? '✅ Booking request submitted successfully! We\'ll contact you soon.' 
-                : '✅ ¡Solicitud de reserva enviada con éxito! Te contactaremos pronto.';
-            showSuccessMessage(successMessage);
-            this.reset();
-        } else {
-            throw new Error('Form submission failed');
-        }
-    } catch (error) {
-        const errorMessage = currentLanguage === 'en' 
-            ? '❌ Error sending booking. Please try again or call us directly.' 
-            : '❌ Error al enviar la reserva. Inténtalo de nuevo o llámanos.';
-        showSuccessMessage(errorMessage);
-    } finally {
-        submitButton.textContent = originalText;
-        submitButton.disabled = false;
-    }
-});
 
 contactForm.addEventListener('submit', async function(e) {
     e.preventDefault();
