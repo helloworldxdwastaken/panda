@@ -1,6 +1,7 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
     { "source": "/blog", "destination": "/blog-index.html" },
     { "source": "/blog/best-tampa-studios", "destination": "/blog-best-tampa-studios.html" },
     { "source": "/blog/tattoo-pricing-tampa", "destination": "/blog-tattoo-pricing-tampa.html" },
@@ -14,8 +15,6 @@
     { "source": "/top-10-estudios-tatuajes-tampa-es", "destination": "/top-10-estudios-tatuajes-tampa-es.html" },
     { "source": "/best-tattoo-shops-miami", "destination": "/best-tattoo-shops-miami.html" },
     { "source": "/best-tattoo-artists-florida", "destination": "/best-tattoo-artists-florida.html" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
 
