@@ -1,8 +1,37 @@
 {
   "rewrites": [
     { "source": "/blog", "destination": "/blog-index.html" },
-    { "source": "/blog/:path*", "destination": "/blog-:path*.html" },
-    { "source": "/:path*", "destination": "/:path*.html" }
+    { "source": "/blog/best-tampa-studios", "destination": "/blog-best-tampa-studios.html" },
+    { "source": "/blog/tattoo-pricing-tampa", "destination": "/blog-tattoo-pricing-tampa.html" },
+    { "source": "/blog/choosing-artist-tampa", "destination": "/blog-choosing-artist-tampa.html" },
+    { "source": "/top-10-tattoo-studios-tampa", "destination": "/top-10-tattoo-studios-tampa.html" },
+    { "source": "/top-10-estudios-tatuajes-tampa-es", "destination": "/top-10-estudios-tatuajes-tampa-es.html" },
+    { "source": "/best-tattoo-shops-miami", "destination": "/best-tattoo-shops-miami.html" },
+    { "source": "/best-tattoo-artists-florida", "destination": "/best-tattoo-artists-florida.html" },
+    { "source": "/mejores-estudios-tatuajes-tampa", "destination": "/mejores-estudios-tatuajes-tampa-es.html" },
+    { "source": "/precios-tatuajes-tampa", "destination": "/precios-tatuajes-tampa-es.html" },
+    { "source": "/como-elegir-artista-tatuajes-tampa", "destination": "/como-elegir-artista-tatuajes-tampa-es.html" },
+    { "source": "/mejores-tiendas-tatuajes-miami", "destination": "/mejores-tiendas-tatuajes-miami-es.html" },
+    { "source": "/mejores-artistas-tatuajes-florida", "destination": "/mejores-artistas-tatuajes-florida-es.html" }
+  ],
+  "headers": [
+    {
+      "source": "/top-10-tattoo-studios-tampa",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</top-10-estudios-tatuajes-tampa-es>; rel=\"alternate\"; hreflang=\"es\""
+        }
+      ]
+    },
+    {
+      "source": "/top-10-estudios-tatuajes-tampa-es",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</top-10-tattoo-studios-tampa>; rel=\"alternate\"; hreflang=\"en\""
+        }
+      ]
+    }
   ]
 }
-
