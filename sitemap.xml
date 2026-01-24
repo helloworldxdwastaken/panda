@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pandatattooink.com/</loc>
+    <loc>https://pandatattoostudio.vercel.app/</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
   
   <!-- Blog Main Index -->
   <url>
-    <loc>https://pandatattooink.com/blog</loc>
+    <loc>https://pandatattoostudio.vercel.app/blog</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -18,27 +18,27 @@
   
   <!-- HIGH-PRIORITY SEO Articles (Location-Based) - English -->
   <url>
-    <loc>https://pandatattooink.com/top-10-tattoo-studios-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/top-10-tattoo-studios-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/top-10-estudios-tatuajes-tampa-es"/>
+    <loc>https://pandatattoostudio.vercel.app/top-10-tattoo-studios-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/top-10-tattoo-studios-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/top-10-estudios-tatuajes-tampa-es"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/best-tattoo-shops-miami</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/best-tattoo-shops-miami"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-tiendas-tatuajes-miami"/>
+    <loc>https://pandatattoostudio.vercel.app/best-tattoo-shops-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/best-tattoo-shops-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-tiendas-tatuajes-miami"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/best-tattoo-artists-florida</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/best-tattoo-artists-florida"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-artistas-tatuajes-florida"/>
+    <loc>https://pandatattoostudio.vercel.app/best-tattoo-artists-florida</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/best-tattoo-artists-florida"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-artistas-tatuajes-florida"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -46,27 +46,27 @@
   
   <!-- HIGH-PRIORITY SEO Articles (Location-Based) - Spanish -->
   <url>
-    <loc>https://pandatattooink.com/top-10-estudios-tatuajes-tampa-es</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/top-10-tattoo-studios-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/top-10-estudios-tatuajes-tampa-es"/>
+    <loc>https://pandatattoostudio.vercel.app/top-10-estudios-tatuajes-tampa-es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/top-10-tattoo-studios-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/top-10-estudios-tatuajes-tampa-es"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/mejores-tiendas-tatuajes-miami</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/best-tattoo-shops-miami"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-tiendas-tatuajes-miami"/>
+    <loc>https://pandatattoostudio.vercel.app/mejores-tiendas-tatuajes-miami</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/best-tattoo-shops-miami"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-tiendas-tatuajes-miami"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/mejores-artistas-tatuajes-florida</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/best-tattoo-artists-florida"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-artistas-tatuajes-florida"/>
+    <loc>https://pandatattoostudio.vercel.app/mejores-artistas-tatuajes-florida</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/best-tattoo-artists-florida"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-artistas-tatuajes-florida"/>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -74,27 +74,27 @@
   
   <!-- Individual Blog Articles - English -->
   <url>
-    <loc>https://pandatattooink.com/blog/best-tampa-studios</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/best-tampa-studios"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-estudios-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/blog/best-tampa-studios</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/best-tampa-studios"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-estudios-tatuajes-tampa"/>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/blog/tattoo-pricing-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/tattoo-pricing-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/precios-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/blog/tattoo-pricing-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/tattoo-pricing-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/precios-tatuajes-tampa"/>
     <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/blog/choosing-artist-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/choosing-artist-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/como-elegir-artista-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/blog/choosing-artist-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/choosing-artist-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/como-elegir-artista-tatuajes-tampa"/>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -102,27 +102,27 @@
   
   <!-- Individual Blog Articles - Spanish -->
   <url>
-    <loc>https://pandatattooink.com/mejores-estudios-tatuajes-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/best-tampa-studios"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/mejores-estudios-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/mejores-estudios-tatuajes-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/best-tampa-studios"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/mejores-estudios-tatuajes-tampa"/>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/precios-tatuajes-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/tattoo-pricing-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/precios-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/precios-tatuajes-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/tattoo-pricing-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/precios-tatuajes-tampa"/>
     <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://pandatattooink.com/como-elegir-artista-tatuajes-tampa</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattooink.com/blog/choosing-artist-tampa"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattooink.com/como-elegir-artista-tatuajes-tampa"/>
+    <loc>https://pandatattoostudio.vercel.app/como-elegir-artista-tatuajes-tampa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pandatattoostudio.vercel.app/blog/choosing-artist-tampa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pandatattoostudio.vercel.app/como-elegir-artista-tatuajes-tampa"/>
     <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -130,25 +130,25 @@
   
   <!-- Portfolio and Services -->
   <url>
-    <loc>https://pandatattooink.com/#portfolio</loc>
+    <loc>https://pandatattoostudio.vercel.app/#portfolio</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://pandatattooink.com/#videos</loc>
+    <loc>https://pandatattoostudio.vercel.app/#videos</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pandatattooink.com/#contact</loc>
+    <loc>https://pandatattoostudio.vercel.app/#contact</loc>
     <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://pandatattooink.com/blog-tampa-tattoo-artists-near-me.html</loc>
+    <loc>https://pandatattoostudio.vercel.app/blog-tampa-tattoo-artists-near-me.html</loc>
     <lastmod>2026-01-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

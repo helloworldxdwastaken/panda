@@ -12,7 +12,8 @@
     { "source": "/precios-tatuajes-tampa", "destination": "/precios-tatuajes-tampa-es.html" },
     { "source": "/como-elegir-artista-tatuajes-tampa", "destination": "/como-elegir-artista-tatuajes-tampa-es.html" },
     { "source": "/mejores-tiendas-tatuajes-miami", "destination": "/mejores-tiendas-tatuajes-miami-es.html" },
-    { "source": "/mejores-artistas-tatuajes-florida", "destination": "/mejores-artistas-tatuajes-florida-es.html" }
+    { "source": "/mejores-artistas-tatuajes-florida", "destination": "/mejores-artistas-tatuajes-florida-es.html" },
+    { "source": "/blog/tampa-tattoo-artists-near-me", "destination": "/blog-tampa-tattoo-artists-near-me.html" }
   ],
   "headers": [
     {
